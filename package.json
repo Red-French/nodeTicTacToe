@@ -1,0 +1,45 @@
+{
+  "name": "nodetictactoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "bower": "bower"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Red-French/nodeTicTacToe.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true,
+      "jquery": true,
+      "browser": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "author": "Red French",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Red-French/nodeTicTacToe/issues"
+  },
+  "homepage": "https://github.com/Red-French/nodeTicTacToe#readme",
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  },
+  "dependencies": {
+    "bower": "^1.7.7",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "node-sass-middleware": "^0.9.7",
+    "path": "^0.12.7"
+  }
+}
