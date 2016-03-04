@@ -1,0 +1,14 @@
+.board {
+  margin: auto;
+  height: 504px;
+  width: 504px;
+  border: 2px solid black; }
+
+.tile {
+  height: 168px;
+  width: 168px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 72px; }
+
+/*# sourceMappingURL=styles.css.map */
